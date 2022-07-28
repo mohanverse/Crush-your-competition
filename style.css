@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    position: absolute;
+    margin-top: 3%;
+
+}
+.logo{
+    width: 250px;
+    cursor: pointer;
+    margin-right: 25px;
+    
+}
+.navbar-container{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    text-align: center;
+    position:sticky;
+    justify-content: space-between;
+    font-size: 30px;
+    color:darkgray;
+}
+.navbar-container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+
+}
+.navbar-container ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #7475da;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+}
+.navbar-container ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
+  }
+  .button-group {
+    cursor: pointer;
+    color: white;
+    top: 50px;
+    font-size: 30px;
+  }
+  .nav-button{
+    width: 275px;
+    height: 65px;
+    padding: 15px,7px;
+    text-align: center;
+    margin: 20px,10px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid ;
+    background-color: #7475da;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    margin-left: 12%;
+    margin-top: 10px;
+
+  }
+  .nav-buttonbtn{
+    width: 275px;
+    height: 65px;
+    padding: 15px,7px;
+    text-align: center;
+    margin: 20px,10px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid ;
+    background-color: #7475da;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    margin-left: 12%;
+
+  }
+
+
+.banner-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 120px;
+    
+  }
+  .heading-text{
+    width: 100%;
+    position: relative;
+    font-size: 90px;
+    margin-top: 5%;
+  }
+  .description{
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    margin-top: 2%;
+  }
+
+
+
