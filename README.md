@@ -1,11 +1,11 @@
 # Crush-your-competition
-# justice-your-priority
+
 # Project 4 | Interior-disign <a><button name="button" style = "color: red" onclick="https:">`HTML CSS` project 4</button></a>
 # By mohanverse
 
-# Live Link-: [Trend-in-2025]( Crush-your-competition)
+# Live Link-: []( Crush-your-competition)
 
-![project 4](./assests/Screenshot%20(69).png)
+![project 4](./assets/Screenshot%20(70).png)
 
 # What I Learned from this project
 
